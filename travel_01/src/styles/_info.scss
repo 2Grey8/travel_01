@@ -1,0 +1,94 @@
+.info {
+    &__wrap {
+        display: flex;
+        width: 112rem;
+        margin: 0 auto;
+        margin-bottom: 14rem;
+        padding-bottom: 4.1rem;
+        justify-content: space-around;
+        align-items: first baseline;
+        border-bottom: 1px solid #D4D4D4;
+    }
+
+    &__title {
+        display: block;
+        margin-bottom: 2rem;
+        color: var(--, #1C1C1C);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__calling {
+        display: block;
+        width: 26.3rem;
+    }
+
+    &__iconBox {
+        width: 12.6rem;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1.4rem;
+    }
+
+    &__icon {
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__contacts {
+        display: block;
+        width: 31.3rem;
+    }
+
+    &__tel {
+        display: block;
+        margin-bottom: 1rem;
+        color: #1C1C1C;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &__mail {
+        display: block;
+        width: 31.3rem;
+        color: #1C1C1C;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+
+    &__adres {
+        display: block;
+        width: 27.4rem;
+    }
+
+    &__text {
+        width: 242px;
+        color: #1C1C1C;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+}

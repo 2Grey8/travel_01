@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <img class="header__logo" src="../src/images/logo.svg" alt="">
+
+                <nav class="header__nav">
+                    <a href="#" class="header__link">Подбор тура</a>
+                    <a href="#" class="header__link">Горящие туры</a>
+                    <a href="#" class="header__link">Страны</a>
+                    <a href="#" class="header__link">отели</a>
+                </nav>
+
+                <div class="header__block">
+                    <button class="header__btn">оставить заявку</button>
+                    <img class="header__icon-1" src="../src/images/call.png" alt="">
+                    <img class="header__icon-2" src="../src/images/location.png" alt="">
+                    <img class="header__icon-3" src="../src/images/burger.png" alt="">
+                </div>
+            </div>
+
+            <div class="header__main">
+                <h1 class="header__title">путешествия мечты</h1>
+                <span class="header__subtitle">выбери свою</span>
+
+                <form class="header__form" action="">
+                    <input class="header__input header__input_1" type="text" placeholder="Откуда">
+                    <input class="header__input header__input_2" type="text" placeholder="Куда">
+                    <input class="header__input header__input_3" type="text" placeholder="вылет">
+                    <input class="header__input header__input_4" type="text" placeholder="На сколько">
+                    <input class="header__input header__input_5" type="text" placeholder="Туристы">
+                    <button class="header__form-btn" href="#">отправить</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="tour">
+        <div class="container">
+            <h2 class="tour__title">
+                горящие туры
+            </h2>
+            <span class="tour__subtitle tour__subtitle_1">
+                Поймайте момент
+            </span>
+
+            <span class="tour__subtitle tour__subtitle_2">
+                tours
+            </span>
+
+            <div class="tour__slider">
+                <div class="tour__slider-wrap">
+                    <div class="tour__slide">
+                        <img class="tour__img" src="../src/images/slider-card01.png" alt="">
+                        <div class="tour__box tour__box_1">
+                            <span class="tour__text tour__text_1">9 дней</span>
+                            <span class="tour__text tour__text_2">от 25 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box_2">
+                            <span class="tour__text tour__text_3">Италия Венеция</span>
+                            <span class="tour__text tour__text_4">12-18 октября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="tour__slide">
+                        <img class="tour__img" src="../src/images/slider-card02.png" alt="">
+                        <div class="tour__box tour__box_1">
+                            <span class="tour__text tour__text_1">14 дней</span>
+                            <span class="tour__text tour__text_2">от 95 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box_2">
+                            <span class="tour__text tour__text_3">турция Каппадокия</span>
+                            <span class="tour__text tour__text_4">16-30 сентября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="tour__slide">
+                        <img class="tour__img" src="../src/images/slider-card03.png" alt="">
+                        <div class="tour__box tour__box_1">
+                            <span class="tour__text tour__text_1">5 дней</span>
+                            <span class="tour__text tour__text_2">от 80 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box_2">
+                            <span class="tour__text tour__text_3">италия рим</span>
+                            <span class="tour__text tour__text_4">10-15 ноября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="tour__slide">
+                        <img class="tour__img" src="../src/images/slider-card04.png" alt="">
+                        <div class="tour__box tour__box_1">
+                            <span class="tour__text tour__text_1">9 дней</span>
+                            <span class="tour__text tour__text_2">от 25 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box_2">
+                            <span class="tour__text tour__text_3">оаэ дубай</span>
+                            <span class="tour__text tour__text_4">12-18 октября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="tour__slide">
+                        <img class="tour__img" src="../src/images/slider-card05.png" alt="">
+                        <div class="tour__box tour__box_1">
+                            <span class="tour__text tour__text_1">9 дней</span>
+                            <span class="tour__text tour__text_2">от 25 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box_2">
+                            <span class="tour__text tour__text_3">италия флоренция</span>
+                            <span class="tour__text tour__text_4">12-18 октября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider main container 
+            <div class="swiper tour__slider">
+                 Additional required wrapper 
+                <div class="swiper-wrapper tour__slider-wrap">
+                    Slides 
+                    <div class="swiper-slide tour__slide">
+                        <img src="../src/images/slider-card01.png" alt="">
+                        <div class="tour__box tour__box-1">
+                            <span class="tour__text tour__text_1">9 дней</span>
+                            <span class="tour__text tour__text_2">от 25 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box-2">
+                            <span class="tour__text tour__text_3">Италия Венеция</span>
+                            <span class="tour__text tour__text_4">12-18 октября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tour__slide">
+                        <img src="../src/images/slider-card02.png" alt="">
+                        <div class="tour__box tour__box-1">
+                            <span class="tour__text tour__text_1">14 дней</span>
+                            <span class="tour__text tour__text_2">от 95 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box-2">
+                            <span class="tour__text tour__text_3">турция Каппадокия</span>
+                            <span class="tour__text tour__text_4">16-30 сентября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tour__slide">
+                        <img src="../src/images/slider-card03.png" alt="">
+                        <div class="tour__box tour__box-1">
+                            <span class="tour__text tour__text_1">5 дней</span>
+                            <span class="tour__text tour__text_2">от 80 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box-2">
+                            <span class="tour__text tour__text_3">италия рим</span>
+                            <span class="tour__text tour__text_4">10-15 ноября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tour__slide">
+                        <img src="../src/images/slider-card04.png" alt="">
+                        <div class="tour__box tour__box-1">
+                            <span class="tour__text tour__text_1">9 дней</span>
+                            <span class="tour__text tour__text_2">от 25 000 ₽</span>
+                        </div>
+                        <div class="tour__box tour__box-2">
+                            <span class="tour__text tour__text_3">оаэ дубай</span>
+                            <span class="tour__text tour__text_4">12-18 октября</span>
+                            <a class="tour__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                 If we need pagination 
+                <div class="swiper-pagination"></div>
+
+                 If we need navigation buttons 
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="hotel">
+        <div class="container">
+            <span class="hotel__subtitle hotel__subtitle_1">Hotels</span>
+            <h2 class="hotel__title">популярные отели</h2>
+            <span class="hotel__subtitle hotel__subtitle_2">
+                уют и роскошь в лучших отелях мира
+            </span>
+
+            <div class="hotel__slider">
+                <div class="hotel__slider-wrap">
+                    <div class="hotel__slide">
+                        <img class="hotel__img" src="../src/images/slider-card09.png" alt="">
+                        <div class="hotel__ranking">
+                            4.9
+                        </div>
+                        <div class="hotel__box">
+                            <span class="hotel__text">JW Marriott Marquis</span>
+                            <a class="hotel__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="hotel__slide">
+                        <img class="hotel__img" src="../src/images/slider-card09.png" alt="">
+                        <div class="hotel__ranking">
+                            5
+                        </div>
+                        <div class="hotel__box">
+                            <span class="hotel__text">Ritz-Carlton</span>
+                            <a class="hotel__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="hotel__slide">
+                        <img class="hotel__img" src="../src/images/slider-card09.png" alt="">
+                        <div class="hotel__ranking">
+                            5
+                        </div>
+                        <div class="hotel__box">
+                            <span class="hotel__text">Villa Flori Como</span>
+                            <a class="hotel__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="hotel__slide">
+                        <img class="hotel__img" src="../src/images/slider-card09.png" alt="">
+                        <div class="hotel__ranking">
+                            4.8
+                        </div>
+                        <div class="hotel__box">
+                            <span class="hotel__text">Ikos Dassia</span>
+                            <a class="hotel__link" href="">узнать подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advice">
+        <div class="container">
+            <img class="advice__image" src="../src/images/image.png" alt="">
+            <form class="advice__form" action="">
+                <h3 class="advice__title">
+                    не определились
+                    <span class="advice__text">с выбором?</span>
+                </h3>
+                <span class="advice__subtitle">
+                    Оставьте свой номер и наш специалист поможет вам с подбором тура
+                </span>
+                <div class="advice__input-box">
+                    <input class="advice__input" type="text" placeholder="Имя">
+                    <input class="advice__input" type="text" placeholder="Телефон">
+                </div>
+                <a class="advice__btn" href="#">отправить</a>
+            </form>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container">
+            <span class="review__subtitle review__subtitle_1">review</span>
+            <h2 class="review__title">отзывы</h2>
+            <span class="review__subtitle review__subtitle_2">
+                Впечатления наших путешественников
+            </span>
+            <div class="review__wrap">
+                <div class="rewiew__box">
+                    <img class="review__img" src="../src/images/img01.png" alt="">
+                    <div class="review__rating"></div>
+                    <div class="review__info">
+                        <span class="review__name">
+                            Мария С. из Москвы
+                        </span>
+                        <span class="review__location">
+                            Летала в Париж 20.07.23 в отель Ritz-Carlton
+                        </span>
+                    </div>
+                    <div class="review__text">
+                        <span class="review__text_1">Невероятное путешествие!</span>
+                        Спасибо за организацию моей поездки в Париж. Все было просто идеально -
+                        от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!
+                    </div>
+                </div>
+
+                <div class="rewiew__box">
+                    <img class="review__img" src="../src/images/img01.png" alt="">
+                    <div class="review__rating"></div>
+                    <div class="review__info">
+                        <span class="review__name">
+                            Мария С. из Москвы
+                        </span>
+                        <span class="review__location">
+                            Летала в Париж 20.07.23 в отель Ritz-Carlton
+                        </span>
+                    </div>
+                    <div class="review__text">
+                        <span class="review__text_1">Невероятное путешествие!</span>
+                        Спасибо за организацию моей поездки в Париж. Все было просто идеально -
+                        от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!
+                    </div>
+                </div>
+
+                <div class="rewiew__box">
+                    <img class="review__img" src="../src/images/img01.png" alt="">
+                    <div class="review__rating"></div>
+                    <div class="review__info">
+                        <span class="review__name">
+                            Мария С. из Москвы
+                        </span>
+                        <span class="review__location">
+                            Летала в Париж 20.07.23 в отель Ritz-Carlton
+                        </span>
+                    </div>
+                    <div class="review__text">
+                        <span class="review__text_1">Невероятное путешествие!</span>
+                        Спасибо за организацию моей поездки в Париж. Все было просто идеально -
+                        от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!
+                    </div>
+                </div>
+
+                <div class="rewiew__box">
+                    <img class="review__img" src="../src/images/img01.png" alt="">
+                    <div class="review__rating"></div>
+                    <div class="review__info">
+                        <span class="review__name">
+                            Мария С. из Москвы
+                        </span>
+                        <span class="review__location">
+                            Летала в Париж 20.07.23 в отель Ritz-Carlton
+                        </span>
+                    </div>
+                    <div class="review__text">
+                        <span class="review__text_1">Невероятное путешествие!</span>
+                        Спасибо за организацию моей поездки в Париж. Все было просто идеально -
+                        от отелей до экскурсий. Не могу дождаться следующего приключения с вашей турфирмой!
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title">
+                новости
+            </h2>
+            <span class="news__subtitle news__subtitle_1">
+                события в мире туризма
+            </span>
+            <span class="news__subtitle news__subtitle_2">
+                News
+            </span>
+
+            <div class="news__wrap">
+                <div class="news__box news__box_b">
+                    <img class="news__img news__img_b" src="../src/images/news01.png" alt="">
+                    <span class="news__box-title">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link" href="">читать</a>
+                </div>
+
+                <div class="news__box">
+                    <img class="news__img" src="../src/images/news02.png" alt="">
+                    <span class="news__box-title">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link" href="">читать</a>
+                </div>
+
+                <div class="news__box">
+                    <img class="news__img" src="../src/images/news03.png" alt="">
+                    <span class="news__box-title">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link" href="">читать</a>
+                </div>
+
+                <div class="news__box">
+                    <img class="news__img" src="../src/images/news04.png" alt="">
+                    <span class="news__box-title">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link" href="">читать</a>
+                </div>
+
+                <div class="news__box news__box_b">
+                    <img class="news__img news__img_b" src="../src/images/news05.png" alt="">
+                    <span class="news__box-title news__box-title_b">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link news__link_b" href="">читать</a>
+                </div>
+
+                <div class="news__box">
+                    <img class="news__img" src="../src/images/news06.png" alt="">
+                    <span class="news__box-title">ТОП-10 уникальных и завораживающих мест в ОАЭ</span>
+                    <a class="news__link" href="">читать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <span class="about__subtitle about__subtitle_1">We</span>
+            <h2 class="about__title">о нас</h2>
+            <span class="about__subtitle about__subtitle_2">
+                Вдохновляем мир на путешествия
+            </span>
+
+            <div class="about__wrap">
+                <div class="about__box about__box_1">
+                    <div class="about__text about__text_1">
+                        <p class="about__paragraph about__paragraph_1">
+                            <span class="about__passage">МЫ</span>
+                            — команда профессионалов, влюбленных в искусство путешествий.
+                            Наша история началась с мечты о том, чтобы сделать каждое путешествие незабываемым,
+                            каждое приключение уникальным.
+                        </p>
+
+                        <p class="about__paragraph">
+                            Наша миссия — сделать путешествия доступными и незабываемыми. Мы предлагаем вам не просто
+                            туры,а волшебные истории, которые будут жить в вашем сердце навсегда.
+                            Независимо от того, ищете ли вы релакс на пляже, культурные изыски или экстремальные
+                            приключения, мы создадим для вас оптимальное путешествие, подстроенное под ваши уникальные
+                            желания.
+                        </p>
+                    </div>
+                    <img class="about__img about__img_1" src="../src/images/about01.png" alt="">
+                </div>
+
+                <div class="about__box about__box_2">
+                    <img class="about__img about__img_2" src="../src/images/about02.png" alt="">
+                    <div class="about__text about__text_2">
+                        <p class="about__paragraph">
+                            Мы гордимся нашей командой опытных специалистов, каждый из которых разделяет страсть к
+                            туризму и стремление сделать ваше путешествие незабываемым. Мы внимательно следим за
+                            последними тенденциями в индустрии, чтобы предложить вам только лучшие и самые актуальные
+                            варианты.
+                        </p>
+
+                        <p class="about__paragraph">
+                            Наша миссия — сделать путешествия доступными и незабываемыми. Мы предлагаем вам не просто
+                            туры,а волшебные истории, которые будут жить в вашем сердце навсегда.
+                            Независимо от того, ищете ли вы релакс на пляже, культурные изыски или экстремальные
+                            приключения, мы создадим для вас оптимальное путешествие, подстроенное под ваши уникальные
+                            желания.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__wrap">
+                <div class="info__calling">
+                    <h3 class="info__title">СВЯЗАТЬСЯ С НАМИ</h3>
+                    <div class="info__iconBox">
+                        <img class="info__icon" src="../src/images/facebook.png" alt="">
+                        <img class="info__icon" src="../src/images/instagram.png" alt="">
+                        <img class="info__icon" src="../src/images/telegram.png" alt="">
+                        <img class="info__icon" src="../src/images/whatsapp.png" alt="">
+                        <img class="info__icon" src="../src/images/ok.png" alt="">
+                        <img class="info__icon" src="../src/images/vk.png" alt="">
+                    </div>
+                </div>
+
+                <div class="info__contacts">
+                    <h3 class="info__title">КОНТАКТЫ</h3>
+                    <span class="info__tel">+8(495)626-26-96 </span>
+                    <span class="info__tel">+8(925)826-26-96</span>
+                    <span class="info__mail">anextourchertanovo@gmail.com</span>
+                </div>
+
+                <div class="info__adres">
+                    <h3 class="info__title">АДРЕС</h3>
+                    <span class="info__text">Москва, Россошанский проезд, дом 3, (1-й этаж)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application">
+        <div class="container">
+            <img class="application__image" src="../src/images/application.png" alt="">
+            <form class="application__form" action="">
+                <h3 class="application__title">
+                    МЫ ПОМОЖЕМ СОЗДАТЬ
+                    <span class="application__text">ВАШЕ</span>
+                    ПУТЕШЕСТВИЕ
+                </h3>
+                <span class="application__subtitle">
+                    Оставьте заявку на подбор идеального путешествия
+                </span>
+                <div class="application__input-box">
+                    <input class="application__input" type="text" placeholder="Имя">
+                    <input class="application__input" type="text" placeholder="Телефон">
+                </div>
+                <a class="application__btn" href="#">отправить</a>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <img class="footer__logo" src="../src/images/footer-logo .png" alt="">
+                <div class="footer__box">
+                    <span class="footer__text">Узнавайте о горящих турах первыми</span>
+                    <form class="footer__form" action="">
+                        <input class="footer__input" type="text" placeholder="Введите почту">
+                        <a class="footer__link" href="">
+                            <img class="footer__img" src="../src/images/icon02.svg" alt="">
+                        </a>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="footer__nav">
+                <a class="footer__item" href="">Подбор</a>
+                <a class="footer__item" href="">Горящие туры</a>
+                <a class="footer__item" href="">Страны и отели</a>
+                <a class="footer__item" href="">Priority</a>
+                <a class="footer__item" href="">оплата</a>
+                <a class="footer__item" href="">отзывы</a>
+                <a class="footer__item" href="">О нас</a>
+                <a class="footer__item" href="">контакты</a>
+            </nav>
+
+            <div class="footer__wrap">
+                <div class="footer__iconBox">
+                    <img class="footer__icon" src="../src/images/facebook.png" alt="">
+                    <img class="footer__icon" src="../src/images/instagram.png" alt="">
+                    <img class="footer__icon" src="../src/images/telegram.png" alt="">
+                    <img class="footer__icon" src="../src/images/whatsapp.png" alt="">
+                    <img class="footer__icon" src="../src/images/ok.png" alt="">
+                    <img class="footer__icon" src="../src/images/vk.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                2023 © Anex Tour - Туристическая компания
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

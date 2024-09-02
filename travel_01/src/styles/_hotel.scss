@@ -1,0 +1,124 @@
+.hotel {
+    &__title {
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        display: block;
+        font-style: normal;
+        line-height: normal;
+
+        &_1 {
+            margin-bottom: .4rem;
+            color: #D4D4D4;
+            font-family: Millanova;
+            font-size: 42px;
+            font-weight: 400;
+        }
+
+        &_2 {
+            margin-bottom: 14rem;
+            color: #1C1C1C;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    }
+
+    &__slider {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 19.3rem;
+    }
+
+    &__slider-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3.2rem;
+        width: 544px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    &__slide {
+        display: block;
+        width: 544px;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(../images/icon.png);
+            width: 21px;
+            height: 20.215px;
+            position: absolute;
+            top: 3rem;
+            right: 3.3rem;
+        }
+    }
+
+    &__img {
+        width: 544px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: linear-gradient(180deg,
+                rgba(0, 0, 0, 0.00) 67.94%,
+                rgba(0, 0, 0, 0.45) 100%);
+    }
+
+    &__ranking {
+        display: block;
+        color: #FFF;
+        text-align: right;
+        font-family: Chandra;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        top: 3rem;
+        right: 5.3rem;
+    }
+
+    &__box {
+        display: block;
+        width: 544px;
+        text-align: left;
+        position: absolute;
+        top: 31.8rem;
+        left: 3.5rem;
+    }
+
+    &__text {
+        display: block;
+        margin-bottom: .2rem;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        display: block;
+        color: #FFF;
+        opacity: 0.8;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}

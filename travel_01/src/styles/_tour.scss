@@ -1,0 +1,132 @@
+.tour {
+    &__title {
+        display: block;
+        width: 35rem;
+        margin-left: 40rem;
+        margin-bottom: .4rem;
+        color: var(--, #1C1C1C);
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        display: block;
+        margin-left: 40rem;
+        font-style: normal;
+        line-height: normal;
+
+        &_1 {
+            width: 26rem;
+            color: #1C1C1C;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        &_2 {
+            width: 15rem;
+            margin-bottom: 3rem;
+            margin-left: 30rem;
+            color: #D4D4D4;
+            font-family: Millanova;
+            font-size: 52px;
+            font-weight: 400;
+        }
+    }
+
+    &__slider {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 26.8rem;
+    }
+
+    &__slider-wrap {
+        width: 112rem;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        gap: 3.2rem;
+        margin: 0 auto;
+        text-align: center;
+        background: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__slide {
+        display: block;
+        width: 256px;
+        height: 340px;
+        position: relative;
+    }
+
+    &__img {
+        display: block;
+        width: 256px;
+        height: 340px;
+        border-radius: 30px;
+    }
+
+    &__box {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+
+        &_1 {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-weight: 300;
+            position: absolute;
+            top: 2.2rem;
+            left: 3rem;
+        }
+
+        &_2 {
+            display: block;
+            color: #FFF;
+            font-weight: 500;
+            text-align: left;
+            text-transform: uppercase;
+            position: absolute;
+            top: 26rem;
+            left: 2rem;
+        }
+    }
+
+    &__text {
+        display: block;
+
+        &_1,
+        &_2 {
+            padding: .2rem 1rem .3rem 1.1rem;
+            border: 1px solid #fff;
+            border-radius: 30px;
+        }
+
+        &_3,
+        &_4 {
+            margin-bottom: .6rem;
+        }
+    }
+
+    &__link {
+        display: block;
+        color: #FFF;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        opacity: 0.6;
+    }
+}
